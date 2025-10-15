@@ -1,0 +1,14 @@
+{
+  "name": "reelspro-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd reelspro22 && npm install && npm run build",
+    "start": "cd reelspro22 && npm start",
+    "dev": "cd reelspro22 && npm run dev",
+    "install-deps": "cd reelspro22 && npm install"
+  },
+  "workspaces": [
+    "reelspro22"
+  ]
+}
